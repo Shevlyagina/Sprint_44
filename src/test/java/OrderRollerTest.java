@@ -20,7 +20,7 @@ import static org.junit.Assert.assertThat;
 //обьявление второго параметризованного теста
 @RunWith(Parameterized.class)
 public class OrderRollerTest {
-    //инициализация драйвера и обьявление всех нужных переменных
+    //инициализация драйвера и обьявление всех нужных переменных//перепроверка пр
     private WebDriver driver;
     private final String nameValue;
     private final String surnameValue;
